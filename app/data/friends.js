@@ -1,7 +1,7 @@
 var friendArray = [
 	{
-		"name":"Ahmed",
-  		"photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+		"name":"Joey Tribbiani",
+  		"photo":"https://upload.wikimedia.org/wikipedia/vi/thumb/d/da/Matt_LeBlanc_as_Joey_Tribbiani.jpg/200px-Matt_LeBlanc_as_Joey_Tribbiani.jpg",
   		"scores":[
       		5,
       		1,
@@ -14,7 +14,87 @@ var friendArray = [
       		4,
       		1
     	]
-	}
+	},
+  {
+    "name":"Ross Geller",
+      "photo":"http://img.sharetv.com/shows/characters/thumbnails/friends.dr_ross_geller.jpg",
+      "scores":[
+          3,
+          2,
+          1,
+          2,
+          4,
+          4,
+          2,
+          3,
+          5,
+          3
+      ]
+  },
+  {
+    "name":"Monica Bing",
+      "photo":"http://img.sharetv.com/shows/characters/thumbnails/friends.monica_geller-bing.jpg",
+      "scores":[
+          2,
+          5,
+          4,
+          3,
+          3,
+          2,
+          5,
+          5,
+          3,
+          4
+      ]
+  },
+  {
+    "name":"Phoebe Buffay",
+      "photo":"http://img.sharetv.com/shows/characters/thumbnails/friends.phoebe_buffay.jpg",
+      "scores":[
+          4,
+          2,
+          3,
+          1,
+          5,
+          5,
+          2,
+          4,
+          4,
+          5
+      ]
+  },
+  {
+    "name":"Rachel Green",
+      "photo":"http://img.sharetv.com/shows/characters/thumbnails/friends.rachel_green.jpg",
+      "scores":[
+          3,
+          5,
+          3,
+          4,
+          4,
+          3,
+          3,
+          5,
+          2,
+          2
+      ]
+  },
+    {
+    "name":"Chandler Bing",
+      "photo":"http://img.sharetv.com/shows/characters/thumbnails/friends.chandler_bing.jpg",
+      "scores":[
+          4,
+          4,
+          2,
+          3,
+          2,
+          5,
+          5,
+          4,
+          3,
+          5
+      ]
+  },
 ];
 
 module.exports = friendArray;

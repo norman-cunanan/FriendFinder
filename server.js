@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-//Routes apiDATA first where we pulling data to display in HTML
+//Routes: api Data first because we need the data to display in HTML
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
